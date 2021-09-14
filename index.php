@@ -1,10 +1,5 @@
 <?php
-$db_connection = mysqli_connect("127.0.0.1", "root","", "WeMet");
 
-session_start();
-if(!empty($_SESSION['username'])){
-	header("location: home.php");
-}
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +8,7 @@ if(!empty($_SESSION['username'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up - FutsalCorner</title>
+    <title>Sign Up</title>
 <style>
     body { 
         background: url("res/img/bekgronlogin.jpg") no-repeat fixed center;
